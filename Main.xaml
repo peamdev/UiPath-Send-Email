@@ -49,7 +49,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Account="bhudis.wi@indexlivingmall.com" Body="Hello World&#xD;&#xA;This Email Use For Test UiPath&#xD;&#xA;Please Check At &lt;a href='file:///\\MDCFileShare\Supply_Chain$\OTIF Output'&gt;Q:\OTIF Output&lt;/a&gt;" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="True" IsDraft="False" Subject="Test Send Email" To="chalermwong.sa@indexlivingmall.com">
+    <ui:SendOutlookMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Account="email sender" Body="Hello World&#xD;&#xA;This Email Use For Test UiPath&#xD;&#xA;Please Check At &lt;a href='file:///\\MDCFileShare\Supply_Chain$\OTIF Output'&gt;Q:\OTIF Output&lt;/a&gt;" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="True" IsDraft="False" Subject="Test Send Email" To="email receiver">
       <ui:SendOutlookMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
           <InArgument x:TypeArguments="x:String">D:\Workspace\PLReport_R4\Do this\District1.txt</InArgument>
